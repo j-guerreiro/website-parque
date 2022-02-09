@@ -14,7 +14,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: rgb(76, 112, 112);
+  color: rgb(47, 79, 79);
   line-height: 1.2;
 }
 
@@ -23,9 +23,12 @@ p {
 }
 
 .nav-menu {
-  width: 100%;
-  height: 5vh;
+  overflow: auto;
+  border-radius: 5px;
+  width: 95.8vw;
+  padding: 20px;
   position: relative;
+  background-color: rgba(160, 188, 202, 0.247);
 }
 
 .nav-menu ul,
@@ -34,14 +37,16 @@ a {
   justify-content: space-around;
   text-decoration: none;
   list-style-type: none;
-  color: darkslategray;
+  color: rgb(148, 156, 156);
   font-weight: 700;
   font-size: 1.5rem;
   z-index: auto;
+  text-align: center;
+  
 }
 
 .container-parque {
-  background-color: rgba(160, 188, 202, 0.582);
+  background-color: rgba(202, 210, 214, 0.582);
   position: relative;
 }
 
@@ -55,11 +60,8 @@ a {
 }
 
 .imagem #imagem-pico {
-  
-  border-radius: 2px;
   width: 100%;
   height: 100%;
-  padding: 10px;
 }
 
 .imagem .legenda-imagem {
@@ -67,6 +69,7 @@ a {
 }
 
 .footer {
+  background-color: rgba(160, 188, 202, 0.247);
   position: relative;
   margin-top: 15px;
   height: 15vh;
@@ -75,4 +78,8 @@ a {
 .inner-footer {
   padding: 10px;
   text-align: center;
+}
+
+.nav-menu, .container-parque, .footer, #imagem-pico {
+  border-radius: 15px;
 }
