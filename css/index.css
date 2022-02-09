@@ -42,6 +42,14 @@ p {
   .nav-menu a {
     display: block;
   }
+
+  .nav-menu {
+    width: 375px;
+  }
+
+  .container-parque {
+    
+  }
 }
 
 .nav-menu .nav-inner a {
@@ -60,14 +68,13 @@ p {
 }
 
 .container-parque {
-  top: 100px;
+  top: 200px;
   background-color: azure;
   position: relative;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .inner-parque {
-  margin: 10px;
   position: relative;
   width: 93vw;
   padding: 2%;
@@ -99,9 +106,9 @@ p {
 }
 
 .footer {
-  top: 100px;
+  top: 200px;
   position: relative;
-  height: 15vh;
+  height: 20vh;
   border-radius: 15px 15px 1px 1px;
 
 }
