@@ -23,7 +23,7 @@ p {
 }
 
 .nav-menu {
-  overflow: auto;
+  display: flex;
   border-radius: 5px;
   width: 95.8vw;
   padding: 20px;
@@ -31,13 +31,17 @@ p {
   background-color: rgba(160, 188, 202, 0.247);
 }
 
-.nav-menu ul,
-a {
-  display: flex;
-  justify-content: space-around;
+@media screen and (max-width: 500px) {
+  .nav-menu a {
+    display: block;
+  }
+}
+
+.nav-menu .nav-inner a {
+  margin-left: 21vw;
+  justify-content: space-between;
   text-decoration: none;
-  list-style-type: none;
-  color: rgb(148, 156, 156);
+  color: rgb(56, 165, 69);
   font-weight: 700;
   font-size: 1.5rem;
   z-index: auto;
@@ -78,6 +82,7 @@ a {
 .inner-footer {
   padding: 10px;
   text-align: center;
+  font-size: 16px;
 }
 
 .nav-menu, .container-parque, .footer, #imagem-pico {
