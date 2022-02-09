@@ -5,7 +5,8 @@ html {
 }
 
 body {
-  background-color: azure;
+  
+  background-color: rgba(160, 188, 202, 0.247);
 }
 
 h1,
@@ -24,11 +25,16 @@ p {
 
 .nav-menu {
   display: flex;
-  border-radius: 5px;
-  width: 95.8vw;
+  width: 96.5%;
   padding: 20px;
-  position: relative;
-  background-color: rgba(160, 188, 202, 0.247);
+  position: fixed;
+  z-index: 1;
+  border-radius: 1px 1px 15px 15px;
+  margin-top: -10px;
+  border: 0.02px solid rgb(150, 187, 187);
+}
+
+.nav-menu .nav-inner {
 }
 
 @media screen and (max-width: 500px) {
@@ -44,14 +50,19 @@ p {
   color: rgb(56, 165, 69);
   font-weight: 700;
   font-size: 1.5rem;
-  z-index: auto;
   text-align: center;
-  
+}
+
+/* estilo das bordas dos conteineres, menu e rodape */
+.nav-menu, .container-parque, footer {
+  border: 0.02px solid rgb(150, 187, 187);
 }
 
 .container-parque {
-  background-color: rgba(202, 210, 214, 0.582);
+  top: 100px;
+  background-color: azure;
   position: relative;
+  margin-bottom: 20px;
 }
 
 .inner-parque {
@@ -83,10 +94,11 @@ p {
 }
 
 .footer {
-  background-color: rgba(160, 188, 202, 0.247);
+  top: 100px;
   position: relative;
-  margin-top: 15px;
   height: 15vh;
+  border-radius: 15px 15px 1px 1px;
+
 }
 
 .inner-footer {
@@ -95,6 +107,10 @@ p {
   font-size: 16px;
 }
 
-.nav-menu, .container-parque, .cards-info #img-serra, .footer, #imagem-pico {
+.container-parque, .cards-info #img-serra, #imagem-pico {
   border-radius: 15px;
+}
+
+.footer , .nav-menu {
+  background-color: azure;
 }
