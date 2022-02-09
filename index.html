@@ -18,8 +18,8 @@
     <nav class="nav-menu">
       <div class="nav-inner">
         <a href="#"><i class="fa-solid fa fa-house fa-2x" alt="Home" title="Home"></i></a>
-        <a href="#"><i class="fa-solid fa-map-location fa-2x" alt="Localização" title="Localização"></i></a>
-        <a href="#"><i class="fa-solid fa-circle-info fa-2x" alt="Informações" title="Informações"></i></a>
+        <a href="#localizacao"><i class="fa-solid fa-map-location fa-2x" alt="Localização" title="Localização"></i></a>
+        <a href="#informacoes"><i class="fa-solid fa-circle-info fa-2x" alt="Informações" title="Informações"></i></a>
       </div>
     </nav>
   </header>
@@ -43,7 +43,7 @@
   </section>
   <section class="container-parque">
     <header class="inner-parque">
-      <h2>Localização</h2>
+      <h2 id="localizacao">Localização</h2>
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29488.892153102333!2d-43.067509619662154!3d-22.49999870407697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99ae5075aa6419%3A0xc7697ed426856cb7!2sDedo%20de%20Deus!5e0!3m2!1spt-BR!2sbr!4v1644374744666!5m2!1spt-BR!2sbr" width="100%" height="500" style="border:0; border-radius: 15px; position: relative;" allowfullscreen="" loading="lazy"></iframe>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veniam recusandae commodi! 
         Omnis, aperiam voluptatibus architecto ipsa, 
@@ -55,7 +55,7 @@
   </section>
   <section class="container-parque">
     <header class="inner-parque">
-      <h2>Informações</h2>
+      <h2 id="informacoes">Informações</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex veniam recusandae commodi! 
         Omnis, aperiam voluptatibus architecto ipsa, 
         repellat temporibus adipisci magni sint hic facilis vitae id ipsum laboriosam ut non.
@@ -63,11 +63,33 @@
       temporibus, consectetur velit vitae ullam, inventore aperiam expedita 
       reprehenderit facere a modi mollitia necessitatibus exercitationem iure magnam corrupti.</p>
     </header>
+    <div class="cards-info">
+      <div class="inner-cards-info"></div>
+      <figure>
+        <img id="img-serra" src="assets/serra-dos-orgãos-montanhas.jpg" alt="Montanhas da Serra dos Orgãos" title="Montanhas da Serra dos Orgãos">
+        <figcaption>Montanhas da Serra dos Orgãos</figcaption>
+      </figure>
+      <figure>
+        <img id="img-serra" src="assets/dedo-de-deus-nuvens.jpg" alt="Montanhas e nuvens da Serra dos Orgãos" title="Montanhas e nuvens da Serra dos Orgãos">
+        <figcaption>Pico Dedo de Deus distante</figcaption>
+      </figure>
+      <figure>
+        <img id="img-serra" src="assets/serra-dos-orgãos-p&b.jpg" alt="Dedos de Deus P&B" title="Dedo de Deus P&B">
+        <figcaption>Pico Dedo de Deus</figcaption>
+      </figure>
+      <figure>
+        <img id="img-serra" src="assets/trilha-serra-dos-orgãos.jpg" alt="Pessoas na Trilha da Serra dos Orgãos" title="Pessoas na Trilha da Serra dos Orgãos">
+        <figcaption>Trilha da Serra dos Orgãos</figcaption>
+      </figure>
+    </div>
   </section>
   <!-- rodape com informacoes-->
   <footer class="footer">
     <div class="inner-footer">
-      <p>Desenvolvido por: <a href="https://github.com/j-guerreiro">j-guerreiro</a></p>
+      <a href="https://github.com/j-guerreiro">
+      <p>Desenvolvido por: j-guerreiro</p>
+      <i class="fa-brands fa-github-square fa-3x"></i>
+    </a>
     </div>
   </footer>
 </body>

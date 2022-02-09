@@ -72,6 +72,16 @@ p {
   bottom: 10px;
 }
 
+.cards-info{
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.inner-cards-info {
+  flex: 0 1 calc(75% - 3em);
+}
+
 .footer {
   background-color: rgba(160, 188, 202, 0.247);
   position: relative;
@@ -85,6 +95,6 @@ p {
   font-size: 16px;
 }
 
-.nav-menu, .container-parque, .footer, #imagem-pico {
+.nav-menu, .container-parque, .cards-info #img-serra, .footer, #imagem-pico {
   border-radius: 15px;
 }
