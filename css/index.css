@@ -21,6 +21,9 @@
     width: 90%;
     text-justify:auto;
   }
+  .container-imagem {
+    height: 10px;
+  }
 }
 @media screen and (max-width: 700px) {
   .nav-menu {
@@ -30,12 +33,13 @@
     width: 100%;
     height: 100%;
   }
-  .conteiner-texto {
-    width: 50%;
-    height: 35%;
-    background-color: rgb(218, 0, 0);
+}
+@media screen and (min-width: 500px) {
+  .nav-inner #menu-texto {
+    visibility: hidden;
   }
 }
+
 /* {END} MEDIA QUERIES---------------------------------> */
 
 /* CSS----------------------------------------> */
@@ -93,8 +97,8 @@ p {
 /* conteiner do topo do website*/
 .container-imagem {
   position: relative;
-  top: 50px;
-  margin-bottom: 20px;
+  top: 110px;
+  margin-bottom: 90px;
   height: 50em;
   background-image: url(/assets/montanha-teresopolis\ 6.jpg);
   background-attachment:inherit;
@@ -131,6 +135,7 @@ p {
   position: relative;
   margin-top: 5%;
 }
+/* conteiner principal */
 .container-parque {
   top: 50px;
   background-color: azure;
@@ -138,7 +143,7 @@ p {
   margin-bottom: 30px;
   padding: 10px 10px 25px;
 }
-
+/* conteiner interno do conteiner principal*/
 .inner-parque {
   position: relative;
   width: 93vw;
@@ -159,7 +164,7 @@ p {
 .imagem .legenda-imagem {
   bottom: 10px;
 }
-
+/* conteiner de cards de imagens*/
 .cards-info{
   justify-content: space-evenly;
   display: flex;
@@ -169,25 +174,25 @@ p {
 .inner-cards-info {
   flex: 0 1 calc(75% - 3em);
 }
-
+/* conteiner de rodape do site*/
 .footer {
-  top: 200px;
+  top: 50px;
   position: relative;
   height: 20vh;
   border-radius: 15px 15px 1px 1px;
 
 }
-
+/* conteiner interno do rodape */
 .inner-footer {
   padding: 10px;
   text-align: center;
   font-size: 16px;
 }
-
+/* raio das bordas dos conteineres e imagens do site*/
 .container-parque, .cards-info #img-serra, #imagem-pico {
   border-radius: 15px;
 }
-
+/* cor de fundo do nav-menu e do rodape */
 .footer , .nav-menu {
-  background-color: azure;
+  background-color: rgb(240, 255, 255);
 }
