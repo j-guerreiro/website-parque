@@ -90,40 +90,41 @@ p {
   border: 0.02px solid rgb(150, 187, 187);
 }
 
-.container-carrossel{
+
+
+.container-imagem {
   position: relative;
-  height: 100%;
-}
-.container-carrossel .container-imagem #img-montanha{
-  margin-top: 110px;
-  position: relative;
-  width: 100%;
+  top: 50px;
+  margin-bottom: 20px;
+  height: 50em;
+  background-image: url(/assets/montanha-teresopolis\ 6.jpg);
+  background-attachment:inherit;
   border-radius: 15px;
+
 }
 
 .conteiner-texto {
-  bottom: 650px;
-  margin-bottom: -415px;
+  top: 35%;
   text-align: center;
   width: 50%;
-  height: 10%;
+  height: 25%;
   margin-left: 22%;
   position: relative;
   border: 3px solid azure;
   padding: 25px;
   z-index: 1;
   border-radius: 5px;
-  background-color: rgba(24, 250, 250, 0.192);
+  background-color: rgba(24, 250, 250, 0.116);
 }
 
 .conteiner-texto .titulo {
-  font-size: 5rem;
+  font-size: 3rem;
   font-weight: 700;
   color: rgba(255, 255, 255, 0.897);
 }
 
 .conteiner-texto .subtitulo {
-  font-size: 3rem;
+  font-size:2rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.897);
 }
