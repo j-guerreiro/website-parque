@@ -1,47 +1,3 @@
-/* MEDIA QUERIES----------------------------------> */
-@media screen and (max-width: 500px) {
-  .nav-menu a {
-    display: block;
-  }
-  .nav-menu {
-    width: 375px;
-  }
-  .cards-info #img-serra{
-    width: 100%;
-    height: 100%;
-  }
-  .inner-parque #mapa {
-    width: 85%;
-    height: 300px;
-  }
-  h1, h2, h3 {
-    font-size: 1.2rem;
-  }
-  .inner-parque #texto-parque {
-    width: 90%;
-    text-justify:auto;
-  }
-  .container-imagem {
-    height: 10px;
-  }
-}
-@media screen and (max-width: 700px) {
-  .nav-menu {
-    width: 650px;
-  }
-  .cards-info #img-serra{
-    width: 100%;
-    height: 100%;
-  }
-}
-@media screen and (min-width: 500px) {
-  .nav-inner #menu-texto {
-    visibility: hidden;
-  }
-}
-
-/* {END} MEDIA QUERIES---------------------------------> */
-
 /* CSS----------------------------------------> */
 
 /* fontes e margem do html */
@@ -91,7 +47,9 @@ p {
   text-align: center;
 }
 /* estilo das bordas dos conteineres, menu e rodape */
-.nav-menu, .container-parque, footer {
+.nav-menu,
+.container-parque,
+footer {
   border: 0.02px solid rgb(150, 187, 187);
 }
 /* conteiner do topo do website*/
@@ -101,7 +59,7 @@ p {
   margin-bottom: 90px;
   height: 50em;
   background-image: url(/assets/montanha-teresopolis\ 6.jpg);
-  background-attachment:inherit;
+  background-attachment: inherit;
   border-radius: 15px;
 }
 /* conteiner flutuante da imagem do topo */
@@ -126,12 +84,13 @@ p {
 }
 /* subtitulo interno do conteiner flutuante do topo do website*/
 .conteiner-texto .subtitulo {
-  font-size:2rem;
+  font-size: 2rem;
   font-weight: 300;
   color: rgba(255, 255, 255, 0.897);
 }
 
-.conteiner-texto .titulo, .subtitulo {
+.conteiner-texto .titulo,
+.subtitulo {
   position: relative;
   margin-top: 5%;
 }
@@ -157,7 +116,8 @@ p {
   height: 100%;
 }
 
-.cards-info #img-serra, .imagem #imagem-pico {
+.cards-info #img-serra,
+.imagem #imagem-pico {
   box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.459);
 }
 
@@ -165,7 +125,7 @@ p {
   bottom: 10px;
 }
 /* conteiner de cards de imagens*/
-.cards-info{
+.cards-info {
   justify-content: space-evenly;
   display: flex;
   flex-flow: row wrap;
@@ -180,7 +140,6 @@ p {
   position: relative;
   height: 20vh;
   border-radius: 15px 15px 1px 1px;
-
 }
 /* conteiner interno do rodape */
 .inner-footer {
@@ -189,10 +148,13 @@ p {
   font-size: 16px;
 }
 /* raio das bordas dos conteineres e imagens do site*/
-.container-parque, .cards-info #img-serra, #imagem-pico {
+.container-parque,
+.cards-info #img-serra,
+#imagem-pico {
   border-radius: 15px;
 }
 /* cor de fundo do nav-menu e do rodape */
-.footer , .nav-menu {
+.footer,
+.nav-menu {
   background-color: rgb(240, 255, 255);
 }
