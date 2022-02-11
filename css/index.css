@@ -55,16 +55,18 @@ footer {
 /* conteiner do topo do website*/
 .container-imagem {
   position: relative;
-  top: 110px;
-  margin-bottom: 90px;
-  height: 50em;
-  background-image: url(/assets/montanha-teresopolis\ 6.jpg);
-  background-attachment: inherit;
+  top: 105px;
+  margin-bottom: 55px;
+  height: 40rem;
+  background-image: url(/assets/montanha-teresopolis\ \ 11.jpg);
+  background-repeat: no-repeat;
+  background-position-x: center;
   border-radius: 15px;
+  border: 3px solid azure;
 }
 /* conteiner flutuante da imagem do topo */
 .conteiner-texto {
-  top: 35%;
+  top: 30%;
   text-align: center;
   width: 50%;
   height: 35%;
@@ -74,25 +76,24 @@ footer {
   padding: 25px;
   z-index: 1;
   border-radius: 5px;
-  background-color: rgba(111, 114, 111, 0.267);
+  background-color: rgba(11, 92, 146, 0.253);
 }
 /* texto interno do conteiner flutuante do topo do website*/
 .conteiner-texto .titulo {
   font-size: 3rem;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.897);
 }
 /* subtitulo interno do conteiner flutuante do topo do website*/
 .conteiner-texto .subtitulo {
   font-size: 2rem;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.897);
 }
 
 .conteiner-texto .titulo,
 .subtitulo {
   position: relative;
   margin-top: 5%;
+  color: rgb(255, 255, 255);
+  font-weight: 700;  
+
 }
 /* conteiner principal */
 .container-parque {
@@ -117,8 +118,9 @@ footer {
 }
 
 .cards-info #img-serra,
-.imagem #imagem-pico {
+.imagem #imagem-pico, .inner-parque #mapa {
   box-shadow: 2px 6px 25px rgba(0, 0, 0, 0.459);
+  border: 3px solid azure;
 }
 
 .imagem .legenda-imagem {
@@ -129,6 +131,7 @@ footer {
   justify-content: space-evenly;
   display: flex;
   flex-flow: row wrap;
+  row-gap: 20px;
 }
 
 .inner-cards-info {
