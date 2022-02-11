@@ -30,7 +30,7 @@
   .container-imagem {
     position: relative;
     top: 220px;
-    height: 40em;
+    height: 20em;
     margin-bottom: 200px;
     background-image: url(/assets/montanha-teresopolis\ 6.jpg);
     background-attachment: inherit;
@@ -38,11 +38,20 @@
   }
 
   .conteiner-texto {
-    top: 15%;
+    top: 12%;
     text-align: center;
     width: 60%;
-    height: 55%;
-    margin-left: 15%;
+    height: 60%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .conteiner-texto .titulo {
+    font-size: 1.6rem;
+  }
+
+  .conteiner-texto .subtitulo {
+    font-size: 1.3rem;
   }
 }
 @media screen and (max-width: 700px) {
