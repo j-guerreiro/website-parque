@@ -3,6 +3,10 @@
   .nav-menu a {
     display: block;
   }
+
+  .nav-menu #navLink{
+    display: none;
+  }
   .nav-menu {
     width: 375px;
   }
